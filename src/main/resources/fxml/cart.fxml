@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.quickbite.controllers.CartController">
+    <top>
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10" />
+            </padding>
+            <Button text="← Back" onAction="#handleBack" />
+            <Label text="Your Cart" style="-fx-font-size:18px; -fx-font-weight:bold;" />
+        </HBox>
+    </top>
+
+    <center>
+        <TableView fx:id="cartTable">
+            <columns>
+                <TableColumn fx:id="nameColumn" text="Item" prefWidth="200"/>
+                <TableColumn fx:id="priceColumn" text="Price (₹)" prefWidth="100"/>
+                <TableColumn fx:id="descColumn" text="Description" prefWidth="300"/>
+                <TableColumn fx:id="quantityColumn" text="Qty" prefWidth="120" />
+                <TableColumn fx:id="removeColumn" text="Remove" prefWidth="100"/>
+            </columns>
+        </TableView>
+    </center>
+
+    <bottom>
+        <VBox spacing="10" alignment="CENTER_RIGHT">
+            <padding>
+                <Insets top="10" right="20" bottom="20" left="10"/>
+            </padding>
+            <Label fx:id="totalLabel" text="Total: ₹0.00" style="-fx-font-size:16px; -fx-font-weight:bold;" />
+            <HBox spacing="10" alignment="CENTER_RIGHT">
+                <Button text="Clear Cart" onAction="#handleClear" />
+                <Button text="Checkout" onAction="#handleCheckout" />
+            </HBox>
+        </VBox>
+    </bottom>
+</BorderPane>
