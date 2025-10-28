@@ -45,6 +45,16 @@ This project is **student-friendly** and designed for extensions such as:
 
 ---
 
+## Images
+<div align="center" >
+   
+![login](https://github.com/user-attachments/assets/717c4d92-f96c-45d5-b922-8c0aa57f186d) <br>
+![menu](https://github.com/user-attachments/assets/e32593d5-7873-4f92-9e5e-011c61807dbb) <br>
+![cart](https://github.com/user-attachments/assets/17f4af4f-ce1f-45e6-8dbb-24572cc07c48)
+</div>
+
+---
+
 ## Tech Stack
 - Java 21 (OpenJDK / Oracle JDK)
 - JavaFX 21 (FXML)
