@@ -8,13 +8,14 @@ Designed for teaching, demos, and academic project submissions — clean, fully 
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Features](#features)
-3. [Tech Stack](#tech-stack)
-4. [Prerequisites](#prerequisites)
-5. [Project Structure](#project-structure)
-6. [Database (quickbite.db)](#database-quickbitedb)
-7. [Default Accounts / Credentials](#default-accounts--credentials)
-8. [Build a Distributable JAR](#build-a-distributable-jar)
-9. [Contributing](#contributing)
+3. [Images](#images)
+4. [Tech Stack](#tech-stack)
+5. [Prerequisites](#prerequisites)
+6. [Project Structure](#project-structure)
+7. [Database (quickbite.db)](#database-quickbitedb)
+8. [Default Accounts / Credentials](#default-accounts--credentials)
+9. [Build a Distributable JAR](#build-a-distributable-jar)
+10. [Contributing](#contributing)
 
 ---
 
