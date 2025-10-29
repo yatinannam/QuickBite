@@ -141,8 +141,8 @@ Open a terminal at the project root (folder that contains `pom.xml`):
 ---
 
 ## Default accounts / credentials
-- Administrator:
-  username: `admin`
+- Administrator:<br>
+  username: `admin`<br>
   password: `admin123`
 
 - Register new users using the Create Account / Register screen.
