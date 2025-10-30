@@ -6,11 +6,16 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import com.quickbite.util.Database;
+import javafx.scene.image.Image;
 
 public class MainApp extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Database.getInstance().init();
+
+        primaryStage.getIcons().add(
+            new Image(getClass().getResourceAsStream("/images/icon.png"))
+        );
 
         // Try to load the FXML
         var fxmlUrl = MainApp.class.getResource("/fxml/login.fxml");
