@@ -16,10 +16,7 @@ public class DashboardController {
     @FXML
     private Label userLabel;
 
-    private String username;
-
     public void setUsername(String username) {
-        this.username = username;
         userLabel.setText("User: " + username);
     }
 

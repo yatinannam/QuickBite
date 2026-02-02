@@ -1,6 +1,5 @@
 package com.quickbite.controllers;
 
-import com.quickbite.util.Database;
 import org.mindrot.jbcrypt.BCrypt;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
